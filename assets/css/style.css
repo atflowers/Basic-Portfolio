@@ -2,9 +2,17 @@
   box-sizing: border-box;
 }
 
+/*red borders for debugging purposes*/
+header, footer, .developer-name, .header-menu, .container, .container1, .container2, .container1-heading, .connect, .social, #bio, #bio-image {
+	border: solid 1px red;
+}
+
+.container, .container1, .container2 {
+	border: solid 2px green;
+}
+
 header {
 	font-family: 'Georgia', Times, Times New Roman, serif;
-
 }
 
 footer {
